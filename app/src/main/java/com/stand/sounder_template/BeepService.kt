@@ -66,7 +66,7 @@ class BeepService : Service() {
         }
         return NotificationCompat.Builder(this, channelId)
             .setContentTitle(text)
-            .setSmallIcon(R.mipmap.ic_launcher_round) // 必须设置一个有效图标
+            .setSmallIcon(R.mipmap.ic_launcher) // 必须设置一个有效图标
             .build()
     }
 }
